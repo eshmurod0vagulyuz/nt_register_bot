@@ -3,8 +3,8 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.types import ReplyKeyboardRemove
 
-from keyboards.default.user import share_contact, share_location, user_main_menu
-from keyboards.inline.user import languages
+from keyboards.default.start import share_contact, share_location, user_main_menu
+from keyboards.inline.start import languages
 from states.user import RegisterState
 from utils.queries.users import get_user, add_user
 
@@ -15,15 +15,15 @@ router = Router()
 async def start_handler(message: types.Message, state: FSMContext):
     user = await get_user(chat_id=message.from_user.id)
     if user is None:
-        text = "🌏 Please select the language that you want"
+        text = "🌍 Place select the language that you want"
         await message.answer(text=text, reply_markup=languages)
         await state.set_state(RegisterState.language)
     else:
-        await message.answer(text=f"Salom, {message.from_user.full_name}")
+        await message.answer(text=f'Salom {message.from_user.full_name}')
 
 
 @router.callback_query(RegisterState.language)
-async def get_language_handler(call: types.CallbackQuery, state: FSMContext):
+async def get_langauge_handler(call: types.CallbackQuery, state: FSMContext):
     await state.update_data(language=call.data)
 
     text = "Please enter your full name"
@@ -51,16 +51,14 @@ async def get_phone_number_handler(message: types.Message, state: FSMContext):
 
 @router.message(RegisterState.location, F.location)
 async def get_location_handler(message: types.Message, state: FSMContext):
-    await state.update_data(
-        longitude=message.location.longitude,
-        latitude=message.location.latitude
-    )
+    await state.update_data(longitude=message.location.longitude,
+                            latitude=message.location.latitude)
     data = await state.get_data()
     new_user = await add_user(data=data, message=message)
     if new_user:
         text = "✅ Successfully registered"
         await message.answer(text=text, reply_markup=user_main_menu)
     else:
-        text = "❌ Something went wrong, please try again later"
+        text = "❌  Something went wrong, try again later"
         await message.answer(text=text, reply_markup=ReplyKeyboardRemove())
     await state.clear()
