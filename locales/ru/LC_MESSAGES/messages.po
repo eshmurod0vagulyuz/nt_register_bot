@@ -1,0 +1,293 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-02-04 15:07+0500\n"
+"PO-Revision-Date: 2026-01-31 20:09+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: handlers/chats.py:12
+msgid "Information about all our courses"
+msgstr "Информация обо всех наших курсах"
+
+#: handlers/chats.py:20
+#, fuzzy
+msgid ""
+"🐍 Backend Development (Python Backend)\n"
+"\n"
+"    👩‍💻 What you will learn:\n"
+"        Python fundamentals\n"
+"        Django / FastAPI\n"
+"        REST APIs\n"
+"        Databases (PostgresSQL, SQLite)\n"
+"        Authentication & authorization\n"
+"        Git, deployment basics\n"
+"        \n"
+"    Duration:⏳ 6–7 months\n"
+"        \n"
+"    Result: You will be able to build server-side logic, APIs, and full "
+"backend systems."
+msgstr ""
+"🐍 Backend-разработка (Python Backend)\n"
+"\n"
+"    👩‍💻 Чему вы научитесь:\n"
+"        Основы Python\n"
+"        Django / FastAPI\n"
+"        REST API\n"
+"        Базы данных (PostgreSQL, SQLite)\n"
+"        Аутентификация и авторизация\n"
+"        Git, основы деплоя\n"
+"        \n"
+"    Длительность: ⏳ 6–7 месяцев\n"
+"        \n"
+"    Результат: вы сможете создавать серверную логику, API и полноценные "
+"backend-системы."
+
+#: handlers/chats.py:40
+msgid ""
+"💻Frontend Development\n"
+"            \n"
+"    👩‍💻 What you will learn:\n"
+"        HTML, CSS, JavaScript\n"
+"        Responsive web design\n"
+"        Modern frameworks (React basics)\n"
+"        Working with APIs\n"
+"        Git & GitHub\n"
+"         \n"
+"    Duration: ⏳ 5–6 months\n"
+"        \n"
+"    Result: You will be able to build modern, interactive websites and "
+"user interfaces."
+msgstr ""
+"💻 Frontend-разработка\n"
+"\n"
+"    👩‍💻 Чему вы научитесь:\n"
+"        HTML, CSS, JavaScript\n"
+"        Адаптивный веб-дизайн\n"
+"        Современные фреймворки (основы React)\n"
+"        Работа с API\n"
+"        Git и GitHub\n"
+"         \n"
+"    Длительность: ⏳ 5–6 месяцев\n"
+"        \n"
+"    Результат: вы сможете создавать современные интерактивные сайты и "
+"пользовательские интерфейсы."
+
+#: handlers/chats.py:60
+msgid ""
+"🧩 UI/UX & Graphic Design\"\n"
+"\n"
+"    👩‍💻 What you will learn:\n"
+"        Design principles & color theory\n"
+"        UI/UX basics\n"
+"        Figma\n"
+"        Adobe Photoshop & Illustrator\n"
+"        Web & mobile design layouts\n"
+"        Branding basics\n"
+"        \n"
+"    Duration: ⏳ 4–5 months\n"
+"        \n"
+"    Result: You will be able to design modern interfaces, logos, and "
+"digital products."
+msgstr ""
+"🧩 UI/UX и графический дизайн\n"
+"\n"
+"    👩‍💻 Чему вы научитесь:\n"
+"        Принципы дизайна и теория цвета\n"
+"        Основы UI/UX\n"
+"        Figma\n"
+"        Adobe Photoshop и Illustrator\n"
+"        Дизайн веб и мобильных интерфейсов\n"
+"        Основы брендинга\n"
+"        \n"
+"    Длительность: ⏳ 4–5 месяцев\n"
+"        \n"
+"    Результат: вы сможете создавать современные интерфейсы, логотипы и "
+"цифровые продукты."
+
+#: handlers/chats.py:80
+msgid ""
+"📊 Digital Marketing\n"
+"\n"
+"    👩‍💻 What you will learn:\n"
+"        SMM (Instagram, Telegram, Facebook)\n"
+"        Content creation\n"
+"        Targeted advertising (Meta Ads, Google Ads)\n"
+"        SEO basics\n"
+"        Analytics & strategy\n"
+"        \n"
+"    Duration: ⏳ 3–4 months\n"
+"        \n"
+"    Result: You will be able to promote brands and products online "
+"effectively."
+msgstr ""
+"📊 Цифровой маркетинг\n"
+"\n"
+"    👩‍💻 Чему вы научитесь:\n"
+"        SMM (Instagram, Telegram, Facebook)\n"
+"        Создание контента\n"
+"        Таргетированная реклама (Meta Ads, Google Ads)\n"
+"        Основы SEO\n"
+"        Аналитика и стратегия\n"
+"        \n"
+"    Длительность: ⏳ 3–4 месяца\n"
+"        \n"
+"    Результат: вы сможете эффективно продвигать бренды и продукты онлайн."
+
+#: handlers/chats.py:99 keyboards/default/start.py:43
+msgid "⬅️ Back"
+msgstr ""
+
+#: handlers/chats.py:106
+#, fuzzy
+msgid ""
+"📍 Najot Ta’lim branches and contact numbers\n"
+"\n"
+"--Najot Ta'lim Chimboy Branch\n"
+"📌 Address: Chimboy, Tashkent\n"
+"☎️ Phone: +998 99 081-5121 (branch phone)\n"
+"📚 Courses: programming, design, marketing, and others\n"
+"\n"
+"Najot Ta'lim Chilonzor Branch\n"
+"📌 Address: Qatortol street, 1B, Chilonzor, Tashkent\n"
+"☎️ Phone: +998 78 888-98-88 (main number)\n"
+"📌 Branch info: courses, consultations, certificates\n"
+"\n"
+"Najot Ta’lim Center (Tashkent)\n"
+"📌 Main center: Tashkent\n"
+"☎️ Phone: +998 78 888-98-88\n"
+"📚 Programming, design, marketing, and other courses\n"
+"\n"
+"Najot Ta’lim — Xadra Branch\n"
+"📌 Address: Sebzar street, 1, Shaykhontohur, Tashkent\n"
+"☎️ Phone: +998 78 888-98-88\n"
+"✨ Courses and consultations available\n"
+"\n"
+"Najot Ta’lim — Samarkand Branch\n"
+"📌 Address: Rudaki street, 225, Samarkand\n"
+"☎️ Phone: +998 78 888-98-88 (likely main number)\n"
+"\n"
+"Najot Ta’lim — Fergana Branch\n"
+"📌 Address: Kuvasoy street, Fergana\n"
+"☎️ Phone: +998 78 888-98-88 (same number)\n"
+"\n"
+"Najot Ta’lim — Urgench (Khorezm) Branch\n"
+"📌 Address: Al-Khorezmi street, 68B, Urgench\n"
+"☎️ Phone: +998 78 888-98-88 (possibly same number)\n"
+msgstr ""
+"📍 Филиалы и контактные номера Najot Ta’lim\n"
+"\n"
+"--Филиал Najot Ta'lim Чимбой\n"
+"📌 Адрес: Чимбой, Ташкент\n"
+"☎️ Тел: +998 99 081-5121 (телефон филиала)\n"
+"📚 Курсы: программирование, дизайн, маркетинг и другие\n"
+"\n"
+"Филиал Najot Ta'lim Чиланзар\n"
+"📌 Адрес: ул. Катортол, 1B, Чиланзар, Ташкент\n"
+"☎️ Тел: +998 78 888-98-88 (основной номер)\n"
+"📌 Информация о филиале: курсы, консультации, сертификаты\n"
+"\n"
+"Центр Najot Ta’lim (Ташкент)\n"
+"📌 Главный центр: Ташкент\n"
+"☎️ Тел: +998 78 888-98-88\n"
+"📚 Программирование, дизайн, маркетинг и другие курсы\n"
+"\n"
+"Najot Ta’lim — филиал Хадра\n"
+"📌 Адрес: ул. Себзар, 1, Шайхонтохур, Ташкент\n"
+"☎️ Тел: +998 78 888-98-88\n"
+"✨ Доступны курсы и консультации\n"
+"\n"
+"Najot Ta’lim — филиал Самарканд\n"
+"📌 Адрес: ул. Рудаки, 225, Самарканд\n"
+"☎️ Тел: +998 78 888-98-88 (вероятно основной номер)\n"
+"\n"
+"Najot Ta’lim — филиал Фергана\n"
+"📌 Адрес: ул. Кувасай, Фергана\n"
+"☎️ Тел: +998 78 888-98-88 (единый номер)\n"
+"\n"
+"Najot Ta’lim — Ургенч (Хорезм) филиал\n"
+"📌 Адрес: ул. Аль-Хорезми, 68B, Ургенч\n"
+"☎️ Тел: +998 78 888-98-88 (возможен единый номер)"
+
+#: handlers/start.py:18
+#, fuzzy
+msgid "🌍 Please select the language that you want"
+msgstr "🌍 Пожалуйста выберите язык который вы хотите использовать"
+
+#: handlers/start.py:22
+msgid "Hello welcome back,"
+msgstr "Здраствуйте с возвращением "
+
+#: handlers/start.py:30
+msgid "Please enter your full name"
+msgstr "Пожалуйста, введите ваше полное имя"
+
+#: handlers/start.py:39
+msgid "👇 Please enter your phone number by button on the below"
+msgstr "👇 Пожалуйста, введите номер телефона, нажав кнопку ниже"
+
+#: handlers/start.py:48
+msgid "👇 Please enter your location by button on the below"
+msgstr "👇 Пожалуйста, отправьте ваше местоположение, нажав кнопку ниже"
+
+#: handlers/start.py:60
+msgid "✅ Successfully registered"
+msgstr "✅ Регистрация прошла успешно"
+
+#: handlers/start.py:63
+msgid "❌  Something went wrong, try again later"
+msgstr "❌ Произошла ошибка, попробуйте позже"
+
+#: keyboards/default/start.py:6
+msgid "☎️ Share phone number"
+msgstr "☎️ Поделиться номером телефона"
+
+#: keyboards/default/start.py:13
+msgid "📍 Share my location"
+msgstr "📍 Поделиться моей локацией"
+
+#: keyboards/default/start.py:21
+msgid "🎓 Course"
+msgstr "🎓 Курсы"
+
+#: keyboards/default/start.py:22
+msgid "🎉 Events"
+msgstr "🎉 Мероприятия"
+
+#: keyboards/default/start.py:25
+msgid "☎️ Contacts"
+msgstr "☎️ Контакты"
+
+#: keyboards/default/start.py:26
+msgid "⚙️ Settings"
+msgstr "⚙️ Настройки"
+
+#: keyboards/default/start.py:35
+msgid "🐍 Backend (Python)"
+msgstr "🐍 Бэкенд (Python)"
+
+#: keyboards/default/start.py:36
+msgid "💻Frontend Development"
+msgstr "💻 Frontend-разработка"
+
+#: keyboards/default/start.py:39
+msgid "🧩 UI/UX & Graphic Design"
+msgstr "🧩 UI/UX и графический дизайн"
+
+#: keyboards/default/start.py:40
+msgid "📊 Digital Marketing"
+msgstr "📊 Цифровой маркетинг"
+

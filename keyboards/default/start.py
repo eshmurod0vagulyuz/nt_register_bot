@@ -1,42 +1,46 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-share_contact = ReplyKeyboardMarkup(
-    keyboard=[[
-        KeyboardButton(text="☎️ Share phone number", request_contact=True)
-    ]], resize_keyboard=True
-)
+async def share_contact(_):
+    return ReplyKeyboardMarkup(
+        keyboard=[[
+            KeyboardButton(text=_("☎️ Share phone number"), request_contact=True)
+        ]], resize_keyboard=True
+    )
 
-share_location = ReplyKeyboardMarkup(
-    keyboard=[[
-        KeyboardButton(text="📍 Share my location", request_location=True)
-    ]], resize_keyboard=True
-)
+async def share_location(_):
+    return ReplyKeyboardMarkup(
+        keyboard=[[
+            KeyboardButton(text=_("📍 Share my location", request_location=True))
+        ]], resize_keyboard=True
+    )
 
-user_main_menu = ReplyKeyboardMarkup(
-    keyboard=[
-        [
-            KeyboardButton(text="🎓 Course"),
-            KeyboardButton(text="🎉 Events")
-        ],
-        [
-            KeyboardButton(text="☎️ Contacts"),
-            KeyboardButton(text="⚙️ Settings")
-        ]
-    ], resize_keyboard=True
-)
+async def user_main_menu(_):
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("🎓 Course")),
+                KeyboardButton(text=_("🎉 Events"))
+            ],
+            [
+                KeyboardButton(text=_("☎️ Contacts")),
+                KeyboardButton(text=_("⚙️ Settings"))
+            ]
+        ], resize_keyboard=True
+    )
 
-courses = ReplyKeyboardMarkup(
-    keyboard=[
-        [
-            KeyboardButton(text="🐍 Backend (Python)"),
-            KeyboardButton(text="💻Frontend Development")
-        ],
-        [
-            KeyboardButton(text="🧩 UI/UX & Graphic Design"),
-            KeyboardButton(text="📊 Digital Marketing")
-        ],
-        [
-            KeyboardButton(text="⬅️ Back")
-        ]
-    ], resize_keyboard=True
-)
+async def courses(_):
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("🐍 Backend (Python)")),
+                KeyboardButton(text=_("💻Frontend Development"))
+            ],
+            [
+                KeyboardButton(text=_("🧩 UI/UX & Graphic Design")),
+                KeyboardButton(text=_("📊 Digital Marketing"))
+            ],
+            [
+                KeyboardButton(text=_("⬅️ Back"))
+            ]
+        ], resize_keyboard=True
+    )

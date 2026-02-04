@@ -8,22 +8,22 @@ router = Router()
 
 
 @router.message(F.text == "🎓 Course")
-async def chat_course_handler(message: types.Message, state: FSMContext):
-    text = "Information about all our courses"
+async def chat_course_handler(message: types.Message, state: FSMContext,_):
+    text = _("Information about all our courses")
 
-    await message.answer(text=text, reply_markup=courses)
+    await message.answer(text=text, reply_markup=await courses(_))
     await state.set_state(RegisterState.courses)
 
 
 @router.message(RegisterState.courses, F.text == "🐍 Backend (Python)")
-async def chat_backend_handler(message: types.Message, state: FSMContext):
-    text = ("""🐍 Backend Development (Python Backend)
+async def chat_backend_handler(message: types.Message, state: FSMContext,_):
+    text = _("""🐍 Backend Development (Python Backend)
 
     👩‍💻 What you will learn:
         Python fundamentals
         Django / FastAPI
         REST APIs
-        Databases (PostgreSQL, SQLite)
+        Databases (PostgresSQL, SQLite)
         Authentication & authorization
         Git, deployment basics
         
@@ -31,13 +31,13 @@ async def chat_backend_handler(message: types.Message, state: FSMContext):
         
     Result: You will be able to build server-side logic, APIs, and full backend systems."""
 )
-    await message.answer(text=text, reply_markup=courses)
+    await message.answer(text=text, reply_markup=await courses(_))
     await state.set_state(RegisterState.courses)
 
 
 @router.message(RegisterState.courses, F.text == "💻Frontend Development")
-async def chat_backend_handler(message: types.Message, state: FSMContext):
-    text = ("""💻Frontend Development
+async def chat_backend_handler(message: types.Message, state: FSMContext,_):
+    text = _("""💻Frontend Development
             
     👩‍💻 What you will learn:
         HTML, CSS, JavaScript
@@ -51,13 +51,13 @@ async def chat_backend_handler(message: types.Message, state: FSMContext):
     Result: You will be able to build modern, interactive websites and user interfaces."""
             )
 
-    await message.answer(text=text, reply_markup=courses)
+    await message.answer(text=text, reply_markup=await courses(_))
     await state.set_state(RegisterState.courses)
 
 
 @router.message(RegisterState.courses, F.text == "🧩 UI/UX & Graphic Design")
-async def chat_backend_handler(message: types.Message, state: FSMContext):
-    text = ("""🧩 UI/UX & Graphic Design"
+async def chat_backend_handler(message: types.Message, state: FSMContext,_):
+    text = _("""🧩 UI/UX & Graphic Design"
 
     👩‍💻 What you will learn:
         Design principles & color theory
@@ -71,13 +71,13 @@ async def chat_backend_handler(message: types.Message, state: FSMContext):
         
     Result: You will be able to design modern interfaces, logos, and digital products."""
             )
-    await message.answer(text=text, reply_markup=courses)
+    await message.answer(text=text, reply_markup=await courses(_))
     await state.set_state(RegisterState.courses)
 
 
 @router.message(RegisterState.courses, F.text == "📊 Digital Marketing")
-async def chat_backend_handler(message: types.Message, state: FSMContext):
-    text =( """📊 Digital Marketing
+async def chat_backend_handler(message: types.Message, state: FSMContext,_):
+    text =_( """📊 Digital Marketing
 
     👩‍💻 What you will learn:
         SMM (Instagram, Telegram, Facebook)
@@ -90,51 +90,52 @@ async def chat_backend_handler(message: types.Message, state: FSMContext):
         
     Result: You will be able to promote brands and products online effectively."""
             )
-    await message.answer(text=text, reply_markup=courses)
+    await message.answer(text=text, reply_markup=await courses(_))
     await state.set_state(RegisterState.courses)
 
 
 @router.message(RegisterState.courses, F.text == "⬅️ Back")
-async def chat_backend_handler(message: types.Message, state: FSMContext):
-    text = "⬅️ Back"
-    await message.answer(text=text, reply_markup=user_main_menu)
+async def chat_backend_handler(message: types.Message, state: FSMContext,_):
+    text = _("⬅️ Back")
+    await message.answer(text=text, reply_markup=await user_main_menu(_))
     await state.clear()
 
 
 @router.message(F.text == "☎️ Contacts")
-async def chat_contacts_handler(message: types.Message):
-    text = """📍 Najot Ta’lim filiallari va nomerlari
+async def chat_contacts_handler(message: types.Message,_):
+    text = _("""📍 Najot Ta’lim branches and contact numbers
 
---Najot Ta'lim Chimboy filiali
-📌 Manzil: Chimboy, Toshkent
-☎️ Tel: +998 99 081-5121 (filial telefon)
-📚 Kurslar: dasturlash, dizayn, marketing va boshqalar
+--Najot Ta'lim Chimboy Branch
+📌 Address: Chimboy, Tashkent
+☎️ Phone: +998 99 081-5121 (branch phone)
+📚 Courses: programming, design, marketing, and others
 
-Najot Ta'lim Chilonzor Filial
-📌 Manzil: Qatortol ko‘chasi, 1B, Chilonzor, Toshkent
-☎️ Tel: +998 78 888-98-88 (asosiy raqam)
-📌 Filial haqida ma’lumot: kurslar, konsultatsiya, sertifikatlar
+Najot Ta'lim Chilonzor Branch
+📌 Address: Qatortol street, 1B, Chilonzor, Tashkent
+☎️ Phone: +998 78 888-98-88 (main number)
+📌 Branch info: courses, consultations, certificates
 
-Najot Ta’lim Markazi (Toshkent)
-📌 Asosiy markaz: Toshkent
-☎️ Tel: +998 78 888-98-88
-📚 Dasturlash, dizayn, marketing va boshqa kurslar
+Najot Ta’lim Center (Tashkent)
+📌 Main center: Tashkent
+☎️ Phone: +998 78 888-98-88
+📚 Programming, design, marketing, and other courses
 
-Najot Ta’lim — Xadra filiali
-📌 Manzil: Sebzar ko‘chasi, 1, Shayxontohur, Toshkent
-☎️ Tel: +998 78 888-98-88
-✨ Kurslar va konsultatsiya mavjud
+Najot Ta’lim — Xadra Branch
+📌 Address: Sebzar street, 1, Shaykhontohur, Tashkent
+☎️ Phone: +998 78 888-98-88
+✨ Courses and consultations available
 
-Najot Ta’lim — Samarqand filiali
-📌 Manzil: Rudaki ko‘chasi, 225, Samarqand
-☎️ Tel: +998 78 888-98-88 (asosiy raqam bo‘lishi ehtimoli yuqori)
+Najot Ta’lim — Samarkand Branch
+📌 Address: Rudaki street, 225, Samarkand
+☎️ Phone: +998 78 888-98-88 (likely main number)
 
-Najot Ta’lim — Farg‘ona filiali
-📌 Manzil: Kuvasoy ko‘chasi, Farg‘ona
-☎️ Tel: +998 78 888-98-88 (bir xil raqam bo‘ladi)
+Najot Ta’lim — Fergana Branch
+📌 Address: Kuvasoy street, Fergana
+☎️ Phone: +998 78 888-98-88 (same number)
 
-Najot Ta’lim — Urganch (Xorazm) filiali
-📌 Manzil: Al-Xorazmiy ko‘chasi, 68B, Urganch
-☎️ Tel: +998 78 888-98-88 (bir xil raqam bo‘lishi mumkin)"""
+Najot Ta’lim — Urgench (Khorezm) Branch
+📌 Address: Al-Khorezmi street, 68B, Urgench
+☎️ Phone: +998 78 888-98-88 (possibly same number)
+""")
 
-    await message.answer(text=text, reply_markup=user_main_menu)
+    await message.answer(text=text, reply_markup=await user_main_menu(_))

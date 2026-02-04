@@ -1,0 +1,293 @@
+# Uzbek translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-02-04 15:07+0500\n"
+"PO-Revision-Date: 2026-01-31 20:08+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: handlers/chats.py:12
+msgid "Information about all our courses"
+msgstr "Barcha kurslarimiz haqida ma'lumot"
+
+#: handlers/chats.py:20
+#, fuzzy
+msgid ""
+"🐍 Backend Development (Python Backend)\n"
+"\n"
+"    👩‍💻 What you will learn:\n"
+"        Python fundamentals\n"
+"        Django / FastAPI\n"
+"        REST APIs\n"
+"        Databases (PostgresSQL, SQLite)\n"
+"        Authentication & authorization\n"
+"        Git, deployment basics\n"
+"        \n"
+"    Duration:⏳ 6–7 months\n"
+"        \n"
+"    Result: You will be able to build server-side logic, APIs, and full "
+"backend systems."
+msgstr ""
+"🐍 Backend rivojlantirish (Python Backend)\n"
+"\n"
+"    👩‍💻 Siz nimalarni o‘rganasiz:\n"
+"        Python asoslari\n"
+"        Django / FastAPI\n"
+"        REST API lar\n"
+"        Bazalar (PostgreSQL, SQLite)\n"
+"        Autentifikatsiya va avtorizatsiya\n"
+"        Git, deploy asoslari\n"
+"        \n"
+"    Davomiyligi: ⏳ 6–7 oy\n"
+"        \n"
+"    Natija: Siz server tomonidagi logika, API lar va to‘liq backend "
+"tizimlarni yaratishga qodir bo‘lasiz."
+
+#: handlers/chats.py:40
+msgid ""
+"💻Frontend Development\n"
+"            \n"
+"    👩‍💻 What you will learn:\n"
+"        HTML, CSS, JavaScript\n"
+"        Responsive web design\n"
+"        Modern frameworks (React basics)\n"
+"        Working with APIs\n"
+"        Git & GitHub\n"
+"         \n"
+"    Duration: ⏳ 5–6 months\n"
+"        \n"
+"    Result: You will be able to build modern, interactive websites and "
+"user interfaces."
+msgstr ""
+"💻 Frontend rivojlantirish\n"
+"\n"
+"    👩‍💻 Siz nimalarni o‘rganasiz:\n"
+"        HTML, CSS, JavaScript\n"
+"        Moslashuvchan web dizayn\n"
+"        Zamonaviy freymvorklar (React asoslari)\n"
+"        API lar bilan ishlash\n"
+"        Git & GitHub\n"
+"         \n"
+"    Davomiyligi: ⏳ 5–6 oy\n"
+"        \n"
+"    Natija: Siz zamonaviy, interaktiv veb-saytlar va foydalanuvchi "
+"interfeyslarini yaratishga qodir bo‘lasiz."
+
+#: handlers/chats.py:60
+msgid ""
+"🧩 UI/UX & Graphic Design\"\n"
+"\n"
+"    👩‍💻 What you will learn:\n"
+"        Design principles & color theory\n"
+"        UI/UX basics\n"
+"        Figma\n"
+"        Adobe Photoshop & Illustrator\n"
+"        Web & mobile design layouts\n"
+"        Branding basics\n"
+"        \n"
+"    Duration: ⏳ 4–5 months\n"
+"        \n"
+"    Result: You will be able to design modern interfaces, logos, and "
+"digital products."
+msgstr ""
+"🧩 UI/UX va Grafika dizayn\n"
+"\n"
+"    👩‍💻 Siz nimalarni o‘rganasiz:\n"
+"        Dizayn prinsiplari va rang nazariyasi\n"
+"        UI/UX asoslari\n"
+"        Figma\n"
+"        Adobe Photoshop & Illustrator\n"
+"        Web va mobil dizayn tartiblari\n"
+"        Brend asoslari\n"
+"        \n"
+"    Davomiyligi: ⏳ 4–5 oy\n"
+"        \n"
+"    Natija: Siz zamonaviy interfeyslar, logotiplar va raqamli mahsulotlar"
+" yaratishga qodir bo‘lasiz."
+
+#: handlers/chats.py:80
+msgid ""
+"📊 Digital Marketing\n"
+"\n"
+"    👩‍💻 What you will learn:\n"
+"        SMM (Instagram, Telegram, Facebook)\n"
+"        Content creation\n"
+"        Targeted advertising (Meta Ads, Google Ads)\n"
+"        SEO basics\n"
+"        Analytics & strategy\n"
+"        \n"
+"    Duration: ⏳ 3–4 months\n"
+"        \n"
+"    Result: You will be able to promote brands and products online "
+"effectively."
+msgstr ""
+"📊 Raqamli marketing\n"
+"\n"
+"    👩‍💻 Siz nimalarni o‘rganasiz:\n"
+"        SMM (Instagram, Telegram, Facebook)\n"
+"        Kontent yaratish\n"
+"        Maqsadli reklama (Meta Ads, Google Ads)\n"
+"        SEO asoslari\n"
+"        Tahlil va strategiya\n"
+"        \n"
+"    Davomiyligi: ⏳ 3–4 oy\n"
+"        \n"
+"    Natija: Siz brendlar va mahsulotlarni onlayn samarali targ‘ib "
+"qilishga qodir bo‘lasiz."
+
+#: handlers/chats.py:99 keyboards/default/start.py:43
+msgid "⬅️ Back"
+msgstr "⬅️ Orqaga"
+
+#: handlers/chats.py:106
+#, fuzzy
+msgid ""
+"📍 Najot Ta’lim branches and contact numbers\n"
+"\n"
+"--Najot Ta'lim Chimboy Branch\n"
+"📌 Address: Chimboy, Tashkent\n"
+"☎️ Phone: +998 99 081-5121 (branch phone)\n"
+"📚 Courses: programming, design, marketing, and others\n"
+"\n"
+"Najot Ta'lim Chilonzor Branch\n"
+"📌 Address: Qatortol street, 1B, Chilonzor, Tashkent\n"
+"☎️ Phone: +998 78 888-98-88 (main number)\n"
+"📌 Branch info: courses, consultations, certificates\n"
+"\n"
+"Najot Ta’lim Center (Tashkent)\n"
+"📌 Main center: Tashkent\n"
+"☎️ Phone: +998 78 888-98-88\n"
+"📚 Programming, design, marketing, and other courses\n"
+"\n"
+"Najot Ta’lim — Xadra Branch\n"
+"📌 Address: Sebzar street, 1, Shaykhontohur, Tashkent\n"
+"☎️ Phone: +998 78 888-98-88\n"
+"✨ Courses and consultations available\n"
+"\n"
+"Najot Ta’lim — Samarkand Branch\n"
+"📌 Address: Rudaki street, 225, Samarkand\n"
+"☎️ Phone: +998 78 888-98-88 (likely main number)\n"
+"\n"
+"Najot Ta’lim — Fergana Branch\n"
+"📌 Address: Kuvasoy street, Fergana\n"
+"☎️ Phone: +998 78 888-98-88 (same number)\n"
+"\n"
+"Najot Ta’lim — Urgench (Khorezm) Branch\n"
+"📌 Address: Al-Khorezmi street, 68B, Urgench\n"
+"☎️ Phone: +998 78 888-98-88 (possibly same number)\n"
+msgstr ""
+"📍 Najot Ta’lim filiallari va nomerlari\n"
+"\n"
+"--Najot Ta'lim Chimboy filiali\n"
+"📌 Manzil: Chimboy, Toshkent\n"
+"☎️ Tel: +998 99 081-5121 (filial telefon)\n"
+"📚 Kurslar: dasturlash, dizayn, marketing va boshqalar\n"
+"\n"
+"Najot Ta'lim Chilonzor Filial\n"
+"📌 Manzil: Qatortol ko‘chasi, 1B, Chilonzor, Toshkent\n"
+"☎️ Tel: +998 78 888-98-88 (asosiy raqam)\n"
+"📌 Filial haqida ma’lumot: kurslar, konsultatsiya, sertifikatlar\n"
+"\n"
+"Najot Ta’lim Markazi (Toshkent)\n"
+"📌 Asosiy markaz: Toshkent\n"
+"☎️ Tel: +998 78 888-98-88\n"
+"📚 Dasturlash, dizayn, marketing va boshqa kurslar\n"
+"\n"
+"Najot Ta’lim — Xadra filiali\n"
+"📌 Manzil: Sebzar ko‘chasi, 1, Shayxontohur, Toshkent\n"
+"☎️ Tel: +998 78 888-98-88\n"
+"✨ Kurslar va konsultatsiya mavjud\n"
+"\n"
+"Najot Ta’lim — Samarqand filiali\n"
+"📌 Manzil: Rudaki ko‘chasi, 225, Samarqand\n"
+"☎️ Tel: +998 78 888-98-88 (asosiy raqam bo‘lishi ehtimoli yuqori)\n"
+"\n"
+"Najot Ta’lim — Farg‘ona filiali\n"
+"📌 Manzil: Kuvasoy ko‘chasi, Farg‘ona\n"
+"☎️ Tel: +998 78 888-98-88 (bir xil raqam bo‘ladi)\n"
+"\n"
+"Najot Ta’lim — Urganch (Xorazm) filiali\n"
+"📌 Manzil: Al-Xorazmiy ko‘chasi, 68B, Urganch\n"
+"☎️ Tel: +998 78 888-98-88 (bir xil raqam bo‘lishi mumkin)\"\""
+
+#: handlers/start.py:18
+#, fuzzy
+msgid "🌍 Please select the language that you want"
+msgstr "🌍 Iltimos o'zingizga qulay tilni tanlang "
+
+#: handlers/start.py:22
+msgid "Hello welcome back,"
+msgstr "Salom Xushkelibsiz"
+
+#: handlers/start.py:30
+msgid "Please enter your full name"
+msgstr "Iltimos, to‘liq ismingizni kiriting"
+
+#: handlers/start.py:39
+msgid "👇 Please enter your phone number by button on the below"
+msgstr "👇 Iltimos, pastdagi tugma orqali telefon raqamingizni kiriting"
+
+#: handlers/start.py:48
+msgid "👇 Please enter your location by button on the below"
+msgstr "👇 Iltimos, pastdagi tugma orqali joylashuvingizni yuboring"
+
+#: handlers/start.py:60
+msgid "✅ Successfully registered"
+msgstr "✅ Ro‘yxatdan o‘tish muvaffaqiyatli yakunlandi"
+
+#: handlers/start.py:63
+msgid "❌  Something went wrong, try again later"
+msgstr "❌ Xatolik yuz berdi, iltimos, keyinroq qayta urinib ko‘ring"
+
+#: keyboards/default/start.py:6
+msgid "☎️ Share phone number"
+msgstr "☎️ Telefon raqamni ulashish"
+
+#: keyboards/default/start.py:13
+msgid "📍 Share my location"
+msgstr "📍 Joylashuvni ulashish"
+
+#: keyboards/default/start.py:21
+msgid "🎓 Course"
+msgstr "🎓 Kurslar"
+
+#: keyboards/default/start.py:22
+msgid "🎉 Events"
+msgstr "🎉 Tadbirlar"
+
+#: keyboards/default/start.py:25
+msgid "☎️ Contacts"
+msgstr "☎️ Aloqa"
+
+#: keyboards/default/start.py:26
+msgid "⚙️ Settings"
+msgstr "⚙️ Sozlamalar"
+
+#: keyboards/default/start.py:35
+msgid "🐍 Backend (Python)"
+msgstr "🐍 Backend (Python)"
+
+#: keyboards/default/start.py:36
+msgid "💻Frontend Development"
+msgstr "💻 Frontend dasturlash"
+
+#: keyboards/default/start.py:39
+msgid "🧩 UI/UX & Graphic Design"
+msgstr "🧩 UI/UX va grafik dizayn"
+
+#: keyboards/default/start.py:40
+msgid "📊 Digital Marketing"
+msgstr "📊 Raqamli marketing"
+
